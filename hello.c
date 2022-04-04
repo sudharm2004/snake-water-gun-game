@@ -14,7 +14,7 @@ int sgw(char user,char comp)
     }
     else if (user=='g'&& comp=='s')
     {
-        return -1;
+        return 1;
     }
     
     
@@ -35,7 +35,7 @@ int sgw(char user,char comp)
     }
     else if (user=='w'&& comp=='g')
     {
-        return -1;
+        return 1;
     }
 }
 
